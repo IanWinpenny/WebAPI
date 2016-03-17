@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="WebAPI7981" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ATM_DBEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=ivkmho9j6h.database.windows.net;Initial Catalog=ATM_DB;Persist Security Info=True;User ID=ATMTest@ivkmho9j6h;Password=VBRulesOK1;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ATM_DBEntities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=ivkmho9j6h.database.windows.net;Initial Catalog=ATM_DB;Persist Security Info=True;User ID=ATMTest@ivkmho9j6h;Password=VBRulesOK1;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

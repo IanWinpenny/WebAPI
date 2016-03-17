@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ATM_DBModelStoreContainer" CdmEntityContainer="ATM_DBEntities">
+    <EntitySetMapping Name="Samples">
+      <EntityTypeMapping TypeName="ATM_DBModel.Sample">
+        <MappingFragment StoreEntitySet="Sample">
+          <ScalarProperty Name="SampleNo" ColumnName="SampleNo" />
+          <ScalarProperty Name="CoilID" ColumnName="CoilID" />
+          <ScalarProperty Name="ShopOrder" ColumnName="ShopOrder" />
+          <ScalarProperty Name="TimeEntered" ColumnName="TimeEntered" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

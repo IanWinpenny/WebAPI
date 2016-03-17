@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-WebAPI-20160205011023.mdf;Initial Catalog=aspnet-WebAPI-20160205011023;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ATM_DBEntities-Web.config Connection String" description="ATM_DBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=ivkmho9j6h.database.windows.net;initial catalog=ATM_DB;persist security info=True;user id=ATMTest@ivkmho9j6h;password=VBRulesOK1;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Ian\\documents\\visual\ studio\ 2015\\Projects\\WebAPI\\WebAPI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ATM_DBEntities']/@connectionString" />
+  </parameter>
+</parameters>

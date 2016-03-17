@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATM_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Sample">
+    <Key>
+      <PropertyRef Name="SampleNo" />
+    </Key>
+    <Property Name="SampleNo" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="CoilID" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="ShopOrder" Type="int" />
+    <Property Name="TimeEntered" Type="datetime" />
+  </EntityType>
+  <EntityContainer Name="ATM_DBModelStoreContainer">
+    <EntitySet Name="Sample" EntityType="Self.Sample" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
