@@ -5,7 +5,7 @@ namespace WebAPI
 {
     public class BundleConfig
     {
-        // Blah blah
+        // Blah blah blah blah
         /// </summary>
         /// <param name="bundles"></param>
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
